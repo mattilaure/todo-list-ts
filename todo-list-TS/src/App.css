@@ -1,0 +1,40 @@
+body{
+  background-color: #F4F2ED;
+}
+
+
+#root {
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.ant-spin-container{
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.ant-list-item-extra{
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+.item-completed{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-clean{
+  text-decoration:solid !important;
+}
+   
